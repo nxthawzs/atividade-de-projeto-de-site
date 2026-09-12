@@ -1,0 +1,102 @@
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Cadastro - Natureza</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<div class="centro">
+
+<center><h2>📝 CADASTRO E ÁREA DE SEGURANÇA</h2></center>
+
+<form name="frm_cadastro">
+
+<fieldset>
+<legend>Dados pessoais</legend>
+
+<label><u>Nome do Cliente</u></label><br>
+<input id="caixa" type="text" placeholder="Coloca o nome ae" size="60" maxlength="60" required><br><br>
+
+<label>E-mail:</label><br>
+<input id="caixa" type="text" placeholder="seuemail@email.com" size="60"><br><br>
+
+<label>Senha:</label><br>
+<input id="caixa" type="password" size="30" maxlength="20"><br><br>
+
+<label>Selecione a data em que visitou o site:</label><br>
+<input id="caixa" type="date" value="2026-09-01" min="2026-01-01" max="2030-12-31"><br><br>
+
+<label>Selecione sua idade:</label><br>
+<input id="caixa" type="number" min="1" max="100"><br><br>
+
+<label>Seu Estado:</label><br>
+<select id="caixa">
+<option>Acre</option>
+<option>Alagoas</option>
+<option>Amapá</option>
+<option>Amazonas</option>
+<option>Bahia</option>
+<option>Ceará</option>
+<option>Distrito Federal</option>
+<option>Espírito Santo</option>
+<option>Goiás</option>
+<option>Maranhão</option>
+<option>Mato Grosso</option>
+<option>Mato Grosso do Sul</option>
+<option>Minas Gerais</option>
+<option>Pará</option>
+<option>Paraíba</option>
+<option>Paraná</option>
+<option>Pernambuco</option>
+<option>Piauí</option>
+<option>Rio de Janeiro</option>
+<option>Rio Grande do Norte</option>
+<option>Rio Grande do Sul</option>
+<option>Rondônia</option>
+<option>Roraima</option>
+<option>Santa Catarina</option>
+<option>São Paulo</option>
+<option>Sergipe</option>
+<option>Tocantins</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend>Animais de sua preferência</legend>
+<input type="checkbox" name="animal"> Mamíferos<br>
+<input type="checkbox" name="animal"> Aves<br>
+<input type="checkbox" name="animal"> Répteis<br>
+<input type="checkbox" name="animal"> Peixes<br>
+<input type="checkbox" name="animal"> Anfíbios
+</fieldset>
+
+<fieldset>
+<legend>Qual assunto você mais gostou?</legend>
+<input type="radio" name="assunto"> Animais
+<input type="radio" name="assunto"> Mamíferos
+<input type="radio" name="assunto"> Aves
+<input type="radio" name="assunto"> Biomas
+</fieldset>
+
+<fieldset>
+<legend>Observações Gerais</legend>
+<textarea cols="60" rows="6" placeholder="Insira seu comentário"></textarea>
+</fieldset>
+
+<center>
+<input id="botao" type="submit" value="ENVIAR DADOS">
+<input id="botao" type="reset" value="LIMPAR DADOS">
+</center>
+
+</form>
+
+
+
+<br>
+<center>
+<a class="voltar" href="menu.html" target="principal">🏠 VOLTAR AO MENU</a>
+</center>
+</div>
+</body>
+</html>
